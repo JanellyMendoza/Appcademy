@@ -5,4 +5,11 @@
 //  Created by Janelly on 13/02/24.
 //
 
-import Foundation
+
+import UIKit
+
+struct LevelAdviser: Codable {
+    var nameLevel: String
+    var iconLevel: String
+    var colorLevel: String
+}

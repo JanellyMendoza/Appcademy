@@ -6,3 +6,9 @@
 //
 
 import Foundation
+public enum UserDefaultKeys: String{
+    case advisers
+    case advised
+    case userLoged
+    
+}
