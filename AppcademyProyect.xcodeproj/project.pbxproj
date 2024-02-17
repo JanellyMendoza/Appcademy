@@ -28,6 +28,7 @@
 		9F02FC4E2B7C56E800CF5DC1 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FC4D2B7C56E800CF5DC1 /* SplashViewModel.swift */; };
 		9F02FC502B7C570400CF5DC1 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FC4F2B7C570400CF5DC1 /* SplashCoordinator.swift */; };
 		9F02FC522B7C5D9A00CF5DC1 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FC512B7C5D9A00CF5DC1 /* UserDefaultKeys.swift */; };
+		9FDF4A542B7EFB7200A2B65F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF4A532B7EFB7200A2B65F /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		9F02FC4D2B7C56E800CF5DC1 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		9F02FC4F2B7C570400CF5DC1 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
 		9F02FC512B7C5D9A00CF5DC1 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		9FDF4A532B7EFB7200A2B65F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				9F02FC162B7C4EB200CF5DC1 /* AppDelegate.swift */,
+				9FDF4A522B7EFB6000A2B65F /* Utils */,
 				9F02FC472B7C54F200CF5DC1 /* DataBase */,
 				9F02FC2A2B7C4EDC00CF5DC1 /* Models */,
 				9F02FC182B7C4EB200CF5DC1 /* SceneDelegate.swift */,
@@ -150,6 +153,14 @@
 				9F02FC4F2B7C570400CF5DC1 /* SplashCoordinator.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		9FDF4A522B7EFB6000A2B65F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FDF4A532B7EFB7200A2B65F /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				9F02FC502B7C570400CF5DC1 /* SplashCoordinator.swift in Sources */,
 				9F02FC342B7C508A00CF5DC1 /* CategoriesModel.swift in Sources */,
 				9F02FC3B2B7C535300CF5DC1 /* RegisterCoordinator.swift in Sources */,
+				9FDF4A542B7EFB7200A2B65F /* Utils.swift in Sources */,
 				9F02FC412B7C544700CF5DC1 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

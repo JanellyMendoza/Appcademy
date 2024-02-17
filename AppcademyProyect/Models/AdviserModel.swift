@@ -20,8 +20,9 @@ struct Adviser: Codable {
     var score: Float
     var level: LevelAdviser
     var photoAdviser: String?
-    var avaiability: [(String, String)]
+    //var avaiability: [(String, String)] cambiar a string
     var pricePerClass: Double
+    //var isAdviser: Bool
     // horario de disponibilidad
     // precio por clase
 

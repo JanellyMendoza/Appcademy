@@ -15,4 +15,5 @@ struct Advised: Codable {
     var numberOfSessions: Int
     var active: Bool
     var photoAdvised: String?
+    //var isAdviser: Bool
 }
