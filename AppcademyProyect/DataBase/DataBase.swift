@@ -26,11 +26,11 @@ class DataBase{
         }
     }
     //obtener, elimnar users, verificar existencia de userAdviser y userAdvised
-    func getUser(type: UserType) -> Any{
+    /*func getUser(type: UserType) -> Any{
         if type == UserType.ADVISER{
             u
         }
-    }
+    }*/
 }
 
 extension UserDefaults{
